@@ -1,8 +1,8 @@
 {
-    "name": "daltonmedia/elgg_cookieconsent",
+    "name": "oseg/elgg_cookieconsent",
 	"type": "elgg-plugin",
 	"description": "Adds a configurable cookie consent message to your Elgg install",
-	"homepage": "http://daltonstudio.be",
+	"homepage": "https://github.com/oseg",
 	"keywords": [
 		"elgg", "plugin", "cookie", "cookies", "cookieconsent"
 	],    
@@ -10,11 +10,14 @@
 		{
 			"name": "Dries dk",
 			"email": "driesdk@gmail.com"
+		},
+		{
+			"name": "oseg"
 		}
 	],
     "require": {
-		"php": ">=5.5",
+		"php": ">=5.6",
 		"composer/installers": "~1.0"
 	},
-	"license": "GPL-2.0"
+	"license": "MIT"
 }
