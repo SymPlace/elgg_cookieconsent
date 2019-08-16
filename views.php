@@ -1,7 +1,7 @@
-    <?php
+<?php
 
-    return [
-        'default' => [
-            'cookieconsent/' => __DIR__ . '/vendors/cookieconsent/build/',
-	],
-    ];
+return [
+    'default' => [
+        'cookieconsent/' => __DIR__ . '/vendors/cookieconsent/build/',
+    ],
+];
