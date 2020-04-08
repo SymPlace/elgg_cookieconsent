@@ -3,7 +3,7 @@
 	<name>Elgg Cookieconsent</name>
 	<id>elgg_cookieconsent</id>
 	<author>Daltonmedia, oseg</author>
-	<version>3.1.1</version>
+	<version>3.1.2</version>
 	<category>communication</category>
 	<description>Ads a configurable cookie consent message to users</description>
 	<copyright>(C) Daltonmedia.be 2016, (C) Arttic 2018, (C) oseg 2018</copyright>
