@@ -1,8 +1,8 @@
 {
-    "name": "oseg/elgg_cookieconsent",
+    "name": "symplace/elgg_cookieconsent",
 	"type": "elgg-plugin",
 	"description": "Adds a configurable cookie consent message to your Elgg install",
-	"homepage": "https://github.com/oseg",
+	"homepage": "https://github.com/symplace",
 	"keywords": [
 		"elgg", "plugin", "cookie", "cookies", "cookieconsent"
 	],    
@@ -12,7 +12,8 @@
 			"email": "driesdk@gmail.com"
 		},
 		{
-			"name": "oseg"
+			"name": "olivier seguin",
+			"email": "olivier.seguin@sym.place"
 		}
 	],
     "require": {
