@@ -9,7 +9,7 @@
 
 elgg_register_event_handler('init', 'system', 'elgg_cookieconsent_init');
 
-elgg_register_plugin_hook_handler('elgg.data', 'site', 'elgg_cookieconsent_config_site');
+elgg_register_plugin_hook_handler('elgg.data', 'page', 'elgg_cookieconsent_config_page');
 
 function elgg_cookieconsent_init() {
     elgg_define_js('cookieconsent', array(
@@ -22,7 +22,7 @@ function elgg_cookieconsent_init() {
     }
 }
 
-function elgg_cookieconsent_config_site($hook, $type, $value, $params) {
+function elgg_cookieconsent_config_page($hook, $type, $value, $params) {
     
     $message = elgg_get_plugin_setting('message', 'elgg_cookieconsent');
     if (!($message)){
